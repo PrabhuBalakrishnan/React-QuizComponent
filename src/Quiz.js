@@ -10,7 +10,6 @@ class Quiz extends Component {
         super(props);
         this.state = { quiz_position: 1 }
     }
-
     const isQuizEnd = quizData.quiz_questions.length === state.quiz_position - 1;
 
     render() {
