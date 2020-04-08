@@ -4,7 +4,7 @@ class QuizQuestion extends Component {
 
     render() {
         return
-        <main>
+        (<main>
             <section>
                 <p>{this.props.quiz_question.instruction_text}</p>
             </section>
@@ -16,6 +16,7 @@ class QuizQuestion extends Component {
                 </ul>
             </section>
         </main>
+        )
     }
 }
 
